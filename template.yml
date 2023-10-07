@@ -200,8 +200,8 @@ Resources:
               ActionTypeId:  
                 Category: Source  
                 Owner: ThirdParty  
-                Version: 1  
-                Provider: GitHub  
+                Version: '1'
+                Provider: GitHub
               OutputArtifacts:  
                 - Name: CodeWorkspace  
               Configuration:  
@@ -218,7 +218,7 @@ Resources:
               ActionTypeId:  
                 Category: Source  
                 Owner: AWS  
-                Version: 1  
+                Version: '1'
                 Provider: CodeCommit  
               OutputArtifacts:  
                 - Name: CodeWorkspace  
